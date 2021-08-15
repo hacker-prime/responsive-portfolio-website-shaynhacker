@@ -321,7 +321,7 @@
                The website loaded in each section such as portfolio and skills using ajax and did not have everything on a single page like this one.
             </p>
             <div style="text-align: center;">
-            <a href="https://shaynhacker.com/web-push-php-example/src/" class="closepopup" >View</a>
+            <a href="https://shaynhacker.com/older-version-of-this-website/" class="closepopup" >View</a>
             <a class="closepopup" onclick="toggle5()">Close</a>
 
             </div>
