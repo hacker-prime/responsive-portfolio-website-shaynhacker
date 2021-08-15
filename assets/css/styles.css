@@ -9,7 +9,8 @@
 
 /*===== Colores =====*/
 :root{
-    --first-color: #5361FF;
+    /* --first-color: #5361FF; */
+    --first-color:#407BFF;
     --white-color: #FAFAFF;
     --dark-color: #2A3B47;
     --text-color: #697477;
@@ -242,7 +243,7 @@ img{
     /* padding: 0 40px 40px; */
     width: 50%;  
     /* https://stackoverflow.com/questions/5703552/how-can-i-center-text-horizontally-and-vertically-inside-a-div-block   */
-    transform: translateX(25%) translateY(35%);
+    transform: translateX(25%) translateY(30%);
 }
 
 .right{
@@ -299,10 +300,15 @@ img{
 
 
 @media only screen and (max-width: 1075px){
-    .left{
+    /* .left{
         width: 50%;    
         transform: translateX(5%) translateY(35%);
-    }}
+    } */
+    .left{
+        width: 50%;    
+        transform: translateX(5%) translateY(20%);
+    }
+}
 
     @media only screen and (max-width: 705px) {
         .left{
@@ -801,13 +807,23 @@ img{
 /* To attach the screen max and min width you can do something like this: */
 
 
+@media screen and (orientation:landscape)
+and (min-device-width: 900x) 
+and (max-device-width: 1000px) {
+   /* Your CSS Here*/
+   .left {
+        transform: translateX(5%) translateY(5%);
+    }
+}
+
 
 @media screen and (orientation:landscape)
 and (min-device-width: 700px) 
 and (max-device-width: 900px) {
    /* Your CSS Here*/
    .left {
-        transform: translateX(5%) translateY(20%);
+        /* transform: translateX(5%) translateY(20%); */
+        transform: translateX(5%) translateY(10%);
     }
     .home__scroll {
         padding-top: 5%;
