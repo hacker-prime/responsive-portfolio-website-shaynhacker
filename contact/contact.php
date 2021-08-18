@@ -74,7 +74,7 @@
                              <li class="list-item">
                                  <i style="font-weight: 900;" class="fa fa-instagram" aria-hidden="true">
                                     <span class="contact-text place">
-                                      <a style="color: black;" href="https://www.instagram.com/shaynhacker">Instagram</a>
+                                      <a style="color: black;" href="https://www.instagram.com/shaynhacker">Instagram - @shaynhacker</a>
                                     </span>
                                  </i>
 

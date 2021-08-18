@@ -51,7 +51,7 @@
 
             <main class="l-main">
                 <!--===== HOME =====-->
-                <section class="home" id="home">
+                <section class="home" id="home">.
                     <div class="home__container flex-container">
                 
 
@@ -93,7 +93,10 @@
                         <div>
                             <h2 class="about__subtitle">I am Shayn Hacker</h2>
                             <span class="about__profession">Full-Stack Web Developer</span>
-                            <p class="about__text">Yes the last name is real and no I don't know how to hack computers 😂. The software developer skills were and continues to be acquired through self-education. My formal education is actually in business. The primary traits that define me are being eclectic and eccentric. </p>
+                            <p class="about__text">Yes the last name is real and no I don't know how to hack computers 😂. 
+                                                   I am a self-taught software developer with formal education in business administration.
+                                                   The primary traits that define me are eclecticism and eccentricity.
+                            </p>
 
                             <div class="about__social">
                                 <a href="https://www.linkedin.com/in/shaynhacker/" class="about__social-icon"><i class='bx bxl-linkedin' ></i></a>
@@ -205,6 +208,13 @@
 
                             <div class="portfolio__link">
                                 <a onclick="toggle6()" class="portfolio__link-name">View details</a>
+                            </div>
+                        </div>
+                        <div class="portfolio__img">
+                            <img style="height:100%" src="assets/img/Spotify Clone Course From Udemy.jpg" alt="">
+
+                            <div class="portfolio__link">
+                                <a onclick="toggle7()" class="portfolio__link-name">View details</a>
                             </div>
                         </div>
                     </div>
@@ -333,8 +343,20 @@
                 This application allows you to submit a ticket to Zoho Desk through a php contact form. This is achieved using the Zoho API. 
             </p>
             <div style="text-align: center;">
-            <a href="https://shaynhacker.com/web-push-php-example/src/" class="closepopup" >View</a>
+            <a href="https://www.youtube.com/watch?v=AQXSMQvxEOI" class="closepopup" >View</a>
             <a class="closepopup" onclick="toggle6()">Close</a>
+
+            </div>
+        </div>
+
+        <div id="popup7">
+            <h2 class="popup_header">Spotify Clone Course</h2>
+            <p class="popup__body">
+            Make a Spotify Clone from Scratch: JavaScript PHP and MySQL <strong>(15 Hours)</strong>
+            </p>
+            <div style="text-align: center;">
+            <a href="https://www.udemy.com/course/spotify-clone/" class="closepopup" >View</a>
+            <a class="closepopup" onclick="toggle7()">Close</a>
 
             </div>
         </div>

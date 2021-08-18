@@ -142,6 +142,14 @@ function toggle6(){
     popup2.classList.toggle('active2')
 }
 
+function toggle7(){
+    var blur2 = document.getElementById('portfolio');
+    blur2.classList.toggle('active2')
+
+    var popup2 = document.getElementById('popup7');
+    popup2.classList.toggle('active2')
+}
+
 // https://codepen.io/ptamaro/pen/YQWMEW
 // window.onload = function() {
 
